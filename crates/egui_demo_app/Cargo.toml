@@ -4,7 +4,7 @@ version.workspace = true
 authors = ["Emil Ernerfeldt <emil.ernerfeldt@gmail.com>"]
 license.workspace = true
 edition.workspace = true
-rust-version.workspace = true
+# rust-version.workspace = true
 publish = false
 default-run = "egui_demo_app"
 

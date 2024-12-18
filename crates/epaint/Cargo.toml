@@ -4,19 +4,14 @@ version.workspace = true
 authors = ["Emil Ernerfeldt <emil.ernerfeldt@gmail.com>"]
 description = "Minimal 2D graphics library for GUI work"
 edition.workspace = true
-rust-version.workspace = true
+# rust-version.workspace = true
 homepage = "https://github.com/emilk/egui/tree/master/crates/epaint"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/emilk/egui/tree/master/crates/epaint"
 categories = ["graphics", "gui"]
 keywords = ["graphics", "gui", "egui"]
-include = [
-  "../LICENSE-APACHE",
-  "../LICENSE-MIT",
-  "**/*.rs",
-  "Cargo.toml"
-]
+include = ["../LICENSE-APACHE", "../LICENSE-MIT", "**/*.rs", "Cargo.toml"]
 
 [lints]
 workspace = true
@@ -73,8 +68,8 @@ ecolor.workspace = true
 ab_glyph = "0.2.11"
 ahash.workspace = true
 nohash-hasher.workspace = true
-parking_lot.workspace = true   # Using parking_lot over std::sync::Mutex gives 50% speedups in some real-world scenarios.
-profiling = { workspace = true}
+parking_lot.workspace = true     # Using parking_lot over std::sync::Mutex gives 50% speedups in some real-world scenarios.
+profiling = { workspace = true }
 
 #! ### Optional dependencies
 bytemuck = { workspace = true, optional = true, features = ["derive"] }

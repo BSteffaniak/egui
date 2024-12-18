@@ -4,7 +4,7 @@ version.workspace = true
 authors = ["Emil Ernerfeldt <emil.ernerfeldt@gmail.com>"]
 description = "Example library for egui"
 edition.workspace = true
-rust-version.workspace = true
+# rust-version.workspace = true
 homepage = "https://github.com/emilk/egui/tree/master/crates/egui_demo_lib"
 license.workspace = true
 readme = "README.md"
@@ -12,11 +12,11 @@ repository = "https://github.com/emilk/egui/tree/master/crates/egui_demo_lib"
 categories = ["gui", "graphics"]
 keywords = ["glium", "egui", "gui", "gamedev"]
 include = [
-    "../LICENSE-APACHE",
-    "../LICENSE-MIT",
-    "**/*.rs",
-    "Cargo.toml",
-    "data/icon.png",
+  "../LICENSE-APACHE",
+  "../LICENSE-MIT",
+  "**/*.rs",
+  "Cargo.toml",
+  "data/icon.png",
 ]
 
 [lints]

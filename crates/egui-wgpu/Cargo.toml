@@ -8,7 +8,7 @@ authors = [
   "Emil Ernerfeldt <emil.ernerfeldt@gmail.com>",
 ]
 edition.workspace = true
-rust-version.workspace = true
+# rust-version.workspace = true
 homepage = "https://github.com/emilk/egui/tree/master/crates/egui-wgpu"
 license.workspace = true
 readme = "README.md"
